@@ -1,1 +1,28 @@
 //check 3 no and store into temp
+//
+json 
+countries = [
+
+    name,
+    states:[
+        name,
+        cities:[
+            name
+        ]
+    ]
+    ]
+
+]
+
+///city name .population
+///state name ,city, gov
+///country name ,state,city
+
+// 1. get all contry name with their state and city
+// 2. get all state name with their city and gov
+// 3. get all city name with their population
+// 4. get all state population
+// 5. get all country population
+
+//function
+country name, population
