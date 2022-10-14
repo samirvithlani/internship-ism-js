@@ -25,4 +25,7 @@ countries = [
 // 5. get all country population
 
 //function
-country name, population
+country name,  -return  -->population of that country
+
+convert all loops to filter....
+
