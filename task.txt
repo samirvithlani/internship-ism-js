@@ -29,3 +29,7 @@ country name,  -return  -->population of that country
 
 convert all loops to filter....
 
+///document.getElemtsby class name even odd red blud
+////find pressed key
+/// pa
+/// uk
