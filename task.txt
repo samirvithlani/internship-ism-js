@@ -42,6 +42,16 @@ Hello after dbc hi  -- dbl hello
 
 ------------------------------------
 header  chnage theme
+validation
+
+//clear interval....
+
+//settimeout
+//page load  -->3000 mil  confirm
+
+/// user form  --> 3 input  --> 1. name 2. email 3. password age 
+/// blur focus submit 
+/// table formate...
 
 
 
