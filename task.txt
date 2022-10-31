@@ -53,6 +53,27 @@ validation
 /// blur focus submit 
 /// table formate...
 
+//// 31 -10 - 2022
+--------------------
+
+users = [
+    id
+    name
+    email
+    password
+]
+
+LOgin form  -->  email password ->validation required.... 
+--> if match -> id local storage
+
+--> header -> 
+
+
+
+
+
+
+
 
 
 
