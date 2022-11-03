@@ -21,14 +21,22 @@ async function postData(){
 
 
     var user = {
-        name:"morpheus",
-        job:"leader"
+        "name":"samir",
+        "email":"samir12@gmail.com",
+        "password":"sam123",
+        "status":true
     }
 
-    let res = await fetch("https://reqres.in/api/users",{
-        method:"POST",        
-        
-    },user)
+    var formData = new FormData()
+    formData.append("name",user.name)
+    formData.append("email",user.email)
+    formData.append("password",user.password)
+    formData.append("status",user.status)
+
+    let res = await fetch("http://localhost:8000/user/user",{
+        body:user,
+        method:"POST",
+    })
 
     console.log(res.status)
     let data = await res.json()
@@ -62,7 +70,32 @@ async function getDataById()
     console.log(data)
 
 }
-getData()
+
+
+async function getWearherData(){
+
+
+    let url1 = "https://open-weather13.p.rapidapi.com/city/Ahmedabad"
+    let res = await fetch(url1,{
+        method:"GET",
+        headers:{
+            "X-RapidAPI-Key":"",
+            "X-RapidAPI-Host":""
+        }
+    })
+    let data = await res.json()
+    console.log(data)
+
+
+
+}
+
+
+
+
+
+//getData()
 //postData()
 //deleteData()
 //getDataById()
+getWearherData()
